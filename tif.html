@@ -1,7 +1,6 @@
 <div>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="sidenav">
-        <span>
+        <span> 
             <hr style="margin-top:80px;">
         </span>
         <a href=""><span><svg id="Capa_1" enable-background="new 0 0 511.989 511.989"   width=" 50px" height="30px" viewBox="0 0 511.989 511.989"
@@ -74,13 +73,13 @@
             </g></svg> Videos
             
         <div class="input" style="margin-top: 20px; "></div>
-        <input type="text" placeholder="Insert URL here" style="font-weight: bold; margin-left: 20%; border-radius:10px;
+        <input type="text" placeholder="Insert URL here" style="font-weight: bold;  ;margin-left: 20%; border-radius:10px;
         height: 40px;
         width: 60%;
         border-color: transparent;
         "><br><br>
-<span style="margin-left: 40%">  or </span> <br><br>
-<input type="text" placeholder="upload" rows="3" column="1" style="font-weight:bolder; margin-left:20% ;border-color: transparent; height: 140px; text-align: center;"><br><br>
+<span style="margin-left: 50%; font-weight: bolder;" >  or </span> <br><br>
+<input class="input" type="text" placeholder="upload" rows="3" column="1" style="font-weight:bolder; margin-left:20% ;border-color: transparent; height: 140px; text-align: center;"><br><br>
 
 
     </div>
@@ -108,9 +107,11 @@
         color: gray;
     }
   
-
+.input{
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(0, 0, 0));
+}
 a:hover, a:active {
-  background-color: rgb(181, 179, 216);
+  background-color: rgb(199, 235, 237);
   color: black;
 }
 
@@ -136,5 +137,8 @@ a:hover, a:active {
         margin: 0;
         padding: 0;
     }
-    
+    ::placeholder {
+  color: black;
+  opacity: 2;
+}
 </style>
